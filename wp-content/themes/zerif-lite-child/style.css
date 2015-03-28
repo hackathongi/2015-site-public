@@ -31,7 +31,22 @@ section.focus {
 .logo-wrapper {
     text-align: left;
 }
+@media (min-width: 768px) {
+    .logo-wrapper .navbar-collapse.collapse {
+        display: inline-block !important;
+        float: right;
+        margin-top: 25px;
+    }
 
+    .logo-wrapper .navbar-nav>li>a {
+        color: #ffffff;
+    }
+
+    .logo-wrapper .navbar-nav>li>a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+    }
+}
 .logo-top img {
     height: 75px;
     margin-top: 15px;
@@ -77,4 +92,10 @@ section.focus {
     padding: 50px 0;
     background-color: #ffffff;
     text-align: center;
+}
+
+.developed_by {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    color: #ffffff;
 }
