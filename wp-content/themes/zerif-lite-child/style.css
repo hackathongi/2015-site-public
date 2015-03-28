@@ -54,3 +54,7 @@ section.focus {
 .focus-box .service-icon i {
     max-width: 145px;
 }
+
+.ctUp-ads .service-icon:hover, .focus-box .service-icon:hover {
+    border: none !important;
+}
