@@ -788,7 +788,7 @@ class zerif_ourfocus extends WP_Widget
 
 
 
-        <div class="col-lg-3 col-sm-3 focus-box" data-scrollreveal="enter left after 0.15s over 1s">
+        <div class="col-lg-3 col-sm-3 focus-box">
 
 			<?php if( !empty($instance['image_uri']) ): ?>
             <div class="service-icon">
@@ -1010,7 +1010,7 @@ class zerif_testimonial_widget extends WP_Widget
 				
 				if( !empty($instance['image_uri']) ):
 
-					echo '<div class="client-image hidden-xs">';
+					echo '<div class="client-image">';
 
 					echo '<img src="' . esc_url($instance['image_uri']) . '" alt="">';
 

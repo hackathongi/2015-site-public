@@ -23,7 +23,7 @@ add_action( 'zerif_custom_background_args', function() {
 
 function team_shortcode( $atts ) {
   $atts = shortcode_atts( array(
-    'image' => 'http://www.wallyjob.dev/wp-content/themes/zerif-lite/images/product-bg.png',
+    'image' => '',
     'name' => 'default baz',
     'occupation' => '',
     'linkedin' => '',
@@ -38,13 +38,13 @@ function team_shortcode( $atts ) {
 
   $return .= '<div class="social-icons"><ul>';
   if ($atts['facebook'] != '') {
-    $return .= '<li><a href="'.$atts['facebook'].'"><i class="fa fa-facebook"></i></a></li>';
+    $return .= '<li><a href="'.$atts['facebook'].'" target="_blank"><i class="fa fa-facebook"></i></a></li>';
   }
   if ($atts['twitter'] != '') {
-    $return .= '<li><a href="'.$atts['twitter'].'"><i class="fa fa-twitter"></i></a></li>';
+    $return .= '<li><a href="'.$atts['twitter'].'" target="_blank"><i class="fa fa-twitter"></i></a></li>';
   }
   if ($atts['linkedin'] != '') {
-    $return .= '<li><a href="'.$atts['linkedin'].'"><i class="fa fa-linkedin"></i></a></li>';
+    $return .= '<li><a href="'.$atts['linkedin'].'" target="_blank"><i class="fa fa-linkedin"></i></a></li>';
   }
   $return .= '</ul></div>';
   $return .= '</div></div>';
