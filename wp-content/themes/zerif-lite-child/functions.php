@@ -47,7 +47,7 @@ function team_shortcode( $atts ) {
     $return .= '<li><a href="'.$atts['linkedin'].'"><i class="fa fa-linkedin"></i></a></li>';
   }
   $return .= '</ul></div>';
-  $return .= '</div></div></div>';
+  $return .= '</div></div>';
   return $return;
 }
 add_shortcode( 'team', 'team_shortcode' );
