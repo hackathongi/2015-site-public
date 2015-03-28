@@ -1,0 +1,56 @@
+/*
+ Theme Name:   WallyJobs Child Theme
+ Theme URI:    https://github.com/hackathongi
+ Description:  WallyJobs Child Theme
+ Author:       WallyJobs
+ Author URI:   https://github.com/hackathongi
+ Template:     zerif-lite
+ Version:      1.0.0
+ License:      GNU General Public License v3 or later
+ License URI:  http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+body.custom-background {
+    background-position: top center !important;
+    background-size: 100%;
+}
+
+section.focus {
+    padding: 50px 0;
+}
+
+.section-header h2 {
+    padding-bottom: 40px;
+}
+
+.intro-text {
+    margin-top: 50px;
+    text-transform: none;
+}
+
+.logo-wrapper {
+    text-align: left;
+}
+
+.logo-top img {
+    height: 75px;
+    margin-top: 15px;
+}
+
+.buttons {
+    margin-bottom: 50px;
+}
+
+.buttons .custom-button {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.focus-box .service-icon {
+    border: none;
+    margin-bottom: 0;
+}
+
+.focus-box .service-icon i {
+    max-width: 145px;
+}
